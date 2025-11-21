@@ -1,0 +1,2 @@
+ols <- lm(log(wage) ~ educ + exper + I(exper^2)+ black+ south+ smsa, data=EARNINGS2)
+summary(ols)
