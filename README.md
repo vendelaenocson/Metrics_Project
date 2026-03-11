@@ -1,3 +1,4 @@
+```r
 library(tidyverse)
 library (stargazer)
 library(readxl)
@@ -117,6 +118,7 @@ modelsummary(list(ols,iv_reg, iv2), stars=TRUE)
 
 modelsummary(list(ols, iv_reg))
 
+```
 
 
 
